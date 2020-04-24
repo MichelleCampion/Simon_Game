@@ -1,0 +1,153 @@
+@font-face {
+  font-family: Orbitron;
+  src: url(https://fonts.googleapis.com/);
+}
+
+
+
+.container {
+  position: relative;
+
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  margin-top: 200px;
+  font-family: Orbitron;
+}
+
+
+.grow{
+  -webkit-transform:scale(1.5);
+  -moz-transform:scale(1.5);
+  -ms-transform:scale(1.5);
+  transform:scale(1.5);
+}
+
+#rectangle {
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  top: 70px;
+  right: 100px;
+  background-color: white;
+}
+
+#centerCircle {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: -35px;
+  left: 65px;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 1;
+}
+
+.blackCircle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  background-color: black;
+}
+
+#top-left {
+  top: -70px;
+  left: 10px;
+}
+
+#top-right {
+  top: -70px;
+  right: 10px;
+}
+
+#bottom-left {
+  bottom: -70px;
+  left: 10px;
+}
+
+#bottom-right {
+  bottom: -70px;
+  right: 10px;
+}
+
+.button {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#green {
+  background-color: green;
+  top: 10px;
+  left: 10px;
+}
+
+#red {
+  background-color: red;
+  top: 10px;
+  right: 10px;
+}
+
+#gold {
+  background-color: gold;
+  bottom: 10px;
+  left: 10px;
+}
+
+#blue {
+  background-color: blue;
+  bottom: 10px;
+  right: 10px;
+}
+
+.innerBox {
+  font-family: Orbitron;
+  text-align: center;
+  position: absolute;
+  top: 70px;
+  background-color: gray;
+  height: 25px;
+  border-radius: 10%;
+}
+
+#highScore {
+  width: 28px;
+  left: 17px;
+
+}
+
+#start {
+  width: 70px;
+  left: 50px;
+  cursor: pointer;
+}
+
+#currentScore {
+  width: 28px;
+  right: 17px;
+}
+
+#light {
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50px;
+  right: 80px;
+}
+
+#instruction {
+  visibility: visible;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 28pt;
+  font-family: Orbitron;
+}
+
+#instruction.show {
+  visibility: visible;
+}

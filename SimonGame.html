@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="assignment-02.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+
+  <script src="assignment-02.js"></script>
+
+</head>
+
+<body>
+  <h1 id="instruction">CLICK START TO BEGIN</h1>
+  <div class="container  grow">
+    <div id="rectangle">
+      <span id="top-left" class="blackCircle">
+        <span id="green" class="button" onclick="addToPlayerSequence('green', 0)"></span>
+      </span>
+      <span id="top-right" class="blackCircle">
+        <span id="red" class="button" onclick="addToPlayerSequence('red', 1)"></span>
+      </span>
+      <span id="bottom-left" class="blackCircle">
+        <span id="gold" class="button" onclick="addToPlayerSequence('gold', 2)"></span>
+      </span>
+      <span id="bottom-right" class="blackCircle">
+        <span id="blue" class="button" onclick="addToPlayerSequence('blue', 3)"></span>
+      </span>
+
+      <span id="centerCircle">
+        <span id="highScore" class="innerBox">00</span>
+        <span id="start" class="innerBox" onclick="startGame()">START</span>
+        <span id="currentScore" class="innerBox">00</span>
+        <span id="light"></span>
+      </span>
+    </div>
+
+  </div>
+</body>
+
+</html>
